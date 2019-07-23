@@ -1,3 +1,3 @@
 # lucodyne.github.io
 
-<a href=lucodyne.github.io>CLICK ME  (ノ°Д°）ノ</a>
+<a>[CLICK ME  (ノ°Д°）ノ] (href=lucodyne.github.io)</a>
