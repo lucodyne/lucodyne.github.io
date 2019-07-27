@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/interlaced.png);
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.top {
+    background: #ffffff;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+.topContent {
+    max-width: 960px;
+    margin: auto;
+}
+.content {
+    max-width: 960px;
+    margin: auto;
+    padding-top: 20px; 
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+    }
+
+.tealBox {
+    color: #ffffff;
+    background: #4aaaa5;
+    float: left;
+    height: 78px;
+    padding: 20px 40px 15px 40px;
+}
+
+.nav { 
+    float: right;
+    font-size: 18px;
+    height: 58px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.about {
+    margin-right: 10px;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.portfolio {
+    border-width: 0px 2px 0px 2px;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 0px 10px 0px 10px;
+}
+
+.subContent {
+    background: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 2px;
+    clear: both;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.noBox {
+    background: #ffffff;
+    color: #4aaaa5;
+    float: left;
+    height: 80px;
+    margin-left: 0px;
+    padding: 25px 40px 15px 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.details {
+    background: #ffffff;
+    border-width: 0px;
+    border-top-width: 3px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 18px;
+    margin: 0px 40px 0px 40px;
+    padding: 30px 0px 30px 0px;
+    text-align: left;
+}
+
+#random {
+    color: #777777;
+    line-height: 170%;
+}
+
+#NinoFace {
+    float: left;
+    margin: 30px 20px 10px 40px;
+    width: 150px;
+}
+
+.project {
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 2px;
+    width: 215px;
+}
+
+h3 {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
+    color: #777777;
+    font-size: 15px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+#message {
+    height: 200px;
+}
+
+button {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px 22px;
+}
+
+button:hover {
+    background:teal;
+}
+
+.footer {
+    background: #666666;
+    border-color: #4aaaa5;
+    border-width: 0px;
+    border-style: solid;
+    border-top-width: 5px;
+    bottom: 0px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
