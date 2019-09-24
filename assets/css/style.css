@@ -1,17 +1,19 @@
 body {
-  background-image: url(/assets/images/interlaced.png);
+  background-image: url(/assets/images/congruent_outline.png);
+  /* Background from Toptal Subtle Patterns */
 }
 
 nav {
-  background: #ffffff;
+  background: #3b3b3b;
   border-width: 0px;
   border-bottom-width: 2px;
-  border-color: #cccccc;
+  border-color: #999999;
   border-style: solid;
   position: fixed;
   top: 0px;
   width: 100%;
   z-index: 1;
+  opacity: 0.8;
 }
 
 .container {
@@ -26,8 +28,8 @@ h1 {
 }
 
 #name {
-  background: #4aaaa5;
-  color: #ffffff;
+  background: #42d1f5;
+  color: #3b3b3b;
   float: left;
   padding: 12px 15px;
 }
@@ -38,10 +40,15 @@ h1 {
 }
 
 a {
-  color: #777777;
+  color: #999999;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-decoration: none;
+}
+
+a:hover {
+  color: #42d1f5;
+  transition: color 0.5s;
 }
 
 #about {
@@ -50,7 +57,7 @@ a {
 }
 
 #portfolio {
-  border-color: #dddddd;
+  border-color: #777777;
   border-style: solid;
   border-width: 0px 2px;
   padding: 0px 10px;
@@ -61,16 +68,12 @@ a {
   padding-left: 10px;
 }
 
-a:hover {
-  color: #666666;
-}
-
 .subHeader {
-  border-bottom-color: #dddddd;
+  border-bottom-color: #777777;
   border-width: 0px;
   border-bottom-width: 2px;
   border-style: solid;
-  color: #4aaaa5;
+  color: #42d1f5;
   padding: 20px 0px 35px 0px;
   text-align: left;
 }
@@ -89,17 +92,17 @@ a:hover {
 
 .thumbnail {
   width: 100%;
-  height: auto;
+  height: 100%;
   max-width: 180px;
 }
 
 .portLink:hover {
-  transition: 0.4s ease;
+  transition: 0.5s ease;
   opacity: 0.6;
 }
 
 .linkLabel {
-  background: #4aaaa5;
+  background: #42d1f5;
   color: #ffffff;
   opacity: 0;
   position: relative;
@@ -114,11 +117,11 @@ a:hover {
 }
 
 .content {
-  background: #ffffff;
-  border-color: #dddddd;
+  background: #3b3b3b;
+  border-color: #999999;
   border-style: solid;
-  border-width: 1px;
-  color: #777777;
+  border-width: 2px;
+  color: #999999;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 175%;
@@ -132,19 +135,20 @@ textarea {
 }
 
 footer {
-  border-color: #4aaaa5;
+  border-color: #42d1f5;
   border-style: solid;
   border-width: 0px;
-  border-top-width: 8px;
+  border-top-width: 5px;
   position: fixed;
-  background: #666666;
+  background: #3b3b3b;
   font-size: 8px;
   bottom: 0;
-  color: #aaaaaa;
+  color: #777777;
   margin: auto;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   width: 100%;
+  opacity: 0.8;
 }
 
 #Kappa {

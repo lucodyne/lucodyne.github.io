@@ -36,7 +36,7 @@
           placeholder="Your message here..."
         ></textarea>
         <br />
-        <button class="btn">Submit</button>
+        <button id="formSubmit" class="btn">Submit</button>
       </form>
     </div>
 
@@ -44,5 +44,12 @@
       <img id="Kappa" src="./assets/images/Kappa.png" alt="Kappa" />
       123
     </footer>
+
+    <script>
+      const submitBtn = document.getElementById("formSubmit");
+      submitBtn.addEventListener("click", function() {
+        event.preventDefault();
+      });
+    </script>
   </body>
 </html>
