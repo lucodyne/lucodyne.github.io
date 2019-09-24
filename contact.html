@@ -1,71 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Project</title>
-    <link rel="stylesheet" href="text/css" href="assets/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-    <div class="top">
-
-        <div class="topContent">
-
-            <div class=tealBox>
-
-                <h1 id="nameCard">
-                    Sean Lim
-                </h1>
-            </div>
-
-            <div class="nav">
-                <a class="link contact" href="contact.html">Contact</a>
-            </div>
-
-            <div class="nav"> 
-                <a class="link portfolio" href="portfolio.html">Portfolio</a>
-            </div>
-
-            <div class="nav"> 
-                <a class="link about" href="index.html">About</a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 id="name">Sean Lim</h1>
+        <div class="navLinks">
+          <a id="about" href="./index.html">About</a>
+          <a id="portfolio" href="./portfolio.html">Portfolio</a>
+          <a id="contact" href="./contact.html">Contact</a>
         </div>
+      </div>
+    </nav>
+
+    <div class="container content">
+      <h1 class="subHeader">Contact</h1>
+      <form method="post">
+        <h3>Your Name</h3>
+        <input class="form" placeholder="John Smith" />
+
+        <h3>Your Email</h3>
+        <input class="form" placeholder="user@email.com" />
+
+        <h3>Message</h3>
+        <textarea
+          class="form"
+          rows="5"
+          placeholder="Your message here..."
+        ></textarea>
+        <br />
+        <button class="btn">Submit</button>
+      </form>
     </div>
 
-    <div class="content">
-
-        <div class="subContent">
-
-            <div class="noBox">
-
-                <h1 class="subTitle">
-                    Contact
-                </h1>
-            </div>
-
-            <div class="clear"></div>
-
-            <form action"/my-handling-form-page" method="post" class="details">
-
-                <h3>Your Name</h3>
-                <input class="form" id="name">
-
-                <h3>Your Email</h3>
-                <input class="form" id="email">
-
-                <h3>Message</h3>
-                <textarea class="form" id="message"></textarea>
-
-                <button class="btn">Submit</button>
-
-            </form>
-        </div>
-    </div>
-
-    <div class="footer"></div>
-    
-</body>
+    <footer>
+      <img id="Kappa" src="./assets/images/Kappa.png" alt="Kappa" />
+      123
+    </footer>
+  </body>
 </html>
