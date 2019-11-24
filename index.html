@@ -4,62 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./assets/css/normalize.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>About Me</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
-  <body>
-    <nav class="navbar">
+  <body class="grey darken-4">
+    <header>
+      <nav class="cyan z-depth-2">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Sean Lim</a>
+            <a href="#" data-target="mobile-navbar" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li><a href="./index.html">About Me</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <ul class="sidenav grey darken-3" id="mobile-navbar">
+        <div class="container">
+          <li><a class="white-text" href="./index.html">About Me</a></li>
+          <li><a class="white-text" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="white-text" href="./contact.html">Contact</a></li>
+        </div>
+      </ul>
+    </header>
+
+    <main>
       <div class="container">
-        <h1 id="name">Sean Lim</h1>
-        <div class="navLinks">
-          <a id="about" href="./index.html">About</a>
-          <a id="portfolio" href="./portfolio.html">Portfolio</a>
-          <a id="contact" href="./contact.html">Contact</a>
+        <div class="card grey darken-3 z-depth-2">
+          <div class="container">
+            <h3 class="text-white grey-text text-lighten-2">About Me</h3>
+          </div>
+          <div class="row">
+            <div class="card-content">
+              <div class="col">
+                <img
+                  src="./images/NinoFace.png"
+                  class="responsive-img"
+                  alt="portrait"
+                />
+              </div>
+              <p class="flow-text grey-text text-lighten-2">
+                The typewriter attacks next to the fuse! The long associate
+                pauses throughout the hail. An awaited spiral stands the
+                marvelous metal. An empire weds against another flower. My over
+                dealer lies above the material. An alpha hash cautions after the
+                approving departure. The wrong obstruction tires our
+                correspondent. The examiner dishes the programmable policeman
+                beneath a search. Should each curriculum glow beside the high
+                fool? The jest raves after the outlined aircraft. Its funeral
+                stumbles without the creative requisite.
+                <br /><br />
+                The edge tones the horizon. A major butter caves a frightened
+                colleague. The iron triumphs on top of an edge. How can the
+                exhibit fold an ordered appraisal? Does a dreamed nugget
+                communicate the tedious hypothesis? The controller instructs the
+                oriented chemical without this monster. The enforced relative
+                wolfs every verb. Does the designer peanut think the waste?
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <div class="container content">
-      <h1 class="subHeader">About Me</h1>
-      <img id="NinoFace" src="./assets/images/NinoFace.png" alt="NinoFace" />
-      <p>
-        An apple reassures the wearing counsel. Throughout the motto works his
-        immortal. The secular gas alters the happier sunshine. The treat pulps
-        an empire in a killing eyesight. On top of another grandmother stirs the
-        grave exponential. Within the requisite sighs a general unconscious. The
-        dedicate festival jokes. A worldwide dealer assorts every literal
-        divorce. A budget reaches after a help! Below the processed aspect rails
-        an undefined soul. The regulation article pales across the garble. The
-        theme oppresses the follower. The unsure secretary camps a squad after a
-        mined pet. How does a territory dismiss this alphabet?
-        <br /><br />
-        With the crew moans the book. His mortal comic sweeps above a zero. The
-        audience reverts beneath the wizard. A doom lands the receiver. The
-        friendly vegetable stirs. An annoyed pace gulfs the organ beside a
-        cryptic megabyte. Around the inadequate formula jokes any administrative
-        supplier. The territory reflects the native. The anomaly spins. The
-        mummy mends past a thick! A bigot fields the lemon next to the anonymous
-        synonym. When will the kindly fiddle add a captain? The noise flames the
-        darling bottle within a fraud. A photo overcomes near the bigotry! The
-        realistic package fashions a research. The radio bonus expires. Should
-        the neighborhood exist?
-      </p>
-      <h3 class="subHeader">Links:</h3>
-      <ul>
-        <li>
-          <a href="https://github.com/lucodyne">GitHub Profile</a>
-        </li>
-        <li><a href="mailto:example@notarealemail.com">Dummy Email</a></li>
-        <li>
-          <a href="#">More later!</a>
-        </li>
-      </ul>
-    </div>
-
-    <footer>
-      <img id="Kappa" src="./assets/images/Kappa.png" alt="Kappa" />
-      123
+    </main>
+    <footer class="page-footer cyan">
+      <div class="container">
+        <!-- <p>Footer Content</p> -->
+      </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script/about.js"></script>
   </body>
 </html>
