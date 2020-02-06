@@ -19,7 +19,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": 2020,
   "browserslist": {
     "production": [
       ">0.2%",
