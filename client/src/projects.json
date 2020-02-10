@@ -30,7 +30,7 @@
 
   "stock sim": {
     "image": "./Portfolio Thumbnails/stock-thumb.png",
-    "description": "invest in stocks (without pretend money), see how you place on the scoreboard",
+    "description": "invest in stocks (with pretend money), see how you place on the scoreboard",
     "url": "https://secure-beach-99456.herokuapp.com/"
   },
 
