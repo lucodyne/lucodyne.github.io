@@ -3,7 +3,7 @@ const PORT = process.env.PORT || 6072;
 const app = express();
 
 app.use(express.json());
-app.use("*", express.static("client/build"));
+app.use(express.static("client/build"));
 app.use(express.urlencoded({ extended: true }));
 
 // app.get("*", function(req, res) {
