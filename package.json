@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/lucodyne/lucodyne.github.io/issues"
   },
-  "homepage": "https://github.com/lucodyne/lucodyne.github.io#readme",
+  "homepage": "https://nameless-scrubland-68002.herokuapp.com/",
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
