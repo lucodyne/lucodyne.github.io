@@ -1,46 +1,46 @@
 {
   "hangman": {
-    "image": "./Portfolio Thumbnails/hangman-thumb.png",
+    "image": "/Portfolio Thumbnails/hangman-thumb.png",
     "description": "guess the name of k-pop groups in a hangman game",
     "url": "https://lucodyne.github.io/HangmanGame/"
   },
   "rock paper scissors": {
-    "image": "./Portfolio Thumbnails/rockpaperscissors-thumb.png",
+    "image": "/Portfolio Thumbnails/rockpaperscissors-thumb.png",
     "description": "play rock paper scissors with a friend",
     "url": "https://lucodyne.github.io/RPS2/"
   },
 
   "giphy api": {
-    "image": "./Portfolio Thumbnails/giphy-thumb.png",
+    "image": "/Portfolio Thumbnails/giphy-thumb.png",
     "description": "use the giphy api to find gif images",
     "url": "https://lucodyne.github.io/giphys/"
   },
 
   "space chasers": {
-    "image": "./Portfolio Thumbnails/space-thumb.png",
+    "image": "/Portfolio Thumbnails/space-thumb.png",
     "description": "find good places to stargaze and when the best times are to go",
     "url": "https://lucodyne.github.io/SpaceChasers/"
   },
 
   "supper time": {
-    "image": "./Portfolio Thumbnails/suppertime-thumb.png",
+    "image": "/Portfolio Thumbnails/suppertime-thumb.png",
     "description": "find recipes, make a grocery list, and keep track of your ingredients",
     "url": "https://fast-wave-16480.herokuapp.com/"
   },
 
   "stock sim": {
-    "image": "./Portfolio Thumbnails/stock-thumb.png",
+    "image": "/Portfolio Thumbnails/stock-thumb.png",
     "description": "invest in stocks (with pretend money), see how you place on the scoreboard",
     "url": "https://secure-beach-99456.herokuapp.com/"
   },
 
   "lol trivia": {
-    "image": "./Portfolio Thumbnails/trivia-thumb.png",
+    "image": "/Portfolio Thumbnails/trivia-thumb.png",
     "description": "test your league of legends trivia skills",
     "url": "https://lucodyne.github.io/triviaGame/"
   },
   "food memory": {
-    "image": "./Portfolio Thumbnails/clicky-thumb.png",
+    "image": "/Portfolio Thumbnails/clicky-thumb.png",
     "description": "memory game, try to click each image exactly once",
     "url": "https://limitless-journey-28670.herokuapp.com/"
   }
