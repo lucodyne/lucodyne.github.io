@@ -11,7 +11,7 @@
   },
 
   "giphy api": {
-    "image": "./Portfolio Thumbnails/hangman-thumb.png",
+    "image": "./Portfolio Thumbnails/giphy-thumb.png",
     "description": "use the giphy api to find gif images",
     "url": "https://lucodyne.github.io/giphys/"
   },
