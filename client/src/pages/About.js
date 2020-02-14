@@ -6,13 +6,14 @@ class About extends Component {
       <div className="row">
         <div className="col m0 l2"></div>
         <div className="col s12 m12 l8">
-          <div className="card grey darken-1 grey-text text-lighten-2">
+          <div className="card center grey darken-1 grey-text text-lighten-2">
             <br />
             <h3>About Me</h3>
             <p>
-              words words words words words words words words words words words
-              words words words words words words words words words words words
-              words words
+              JavaScript web developer. Fast learner, team player as well as
+              works independently, and comfortable in a competitive atmosphere.
+              Excellent problem-solver, eager to face new challenges. Excellent
+              attention to detail, and high standards for quality of work.
             </p>
             <br />
           </div>
