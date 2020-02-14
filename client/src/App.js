@@ -16,9 +16,9 @@ class App extends Component {
         <Sidenav />
         <Router>
           <Switch>
-            <Route path="/about">
+            {/* <Route path="/about">
               <About />
-            </Route>
+            </Route> */}
             <Route path="/projects">
               <Projects />
             </Route>
@@ -26,7 +26,7 @@ class App extends Component {
               <Contact />
             </Route>
             <Route path="/">
-              <Home />
+              <About />
             </Route>
           </Switch>
         </Router>
