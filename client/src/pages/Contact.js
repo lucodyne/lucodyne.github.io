@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <div className="row">
         <div className="col s1 m2"></div>
-        <div className="card col s10 m8 center">
+        <div className="card col s10 m8 center grey darken-1 grey-text text-lighten-2">
           <h3>Contact</h3>
 
           <ul>
