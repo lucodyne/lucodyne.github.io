@@ -9,12 +9,10 @@ class Header extends Component {
             <a href="#" data-target="sidenav" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-            <a href="/" className="brand-logo">
-              Sean Lim
-            </a>
+            <div className="brand-logo">Sean Lim</div>
             <ul className="right hide-on-med-and-down">
               <li>
-                <a href="/about">About</a>
+                <a href="/">About</a>
               </li>
               <li>
                 <a href="/projects">Portfolio</a>
