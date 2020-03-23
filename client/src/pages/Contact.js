@@ -6,27 +6,27 @@ class Contact extends Component {
       <div className="row">
         <div className="col s1 m2"></div>
         <div className="card col s10 m8 center grey darken-1 grey-text text-lighten-2">
-          <h3>Contact</h3>
+          {/* <h3>Contact</h3> */}
 
           <ul>
             <li>
-              email:
+              email:{" "}
               <a href="mailto:hi.im.sean.lim@gmail.com">
                 hi.im.sean.lim@gmail.com
               </a>
             </li>
             <li>
-              github:
+              github:{" "}
               <a href="https://github.com/lucodyne">github.com/lucodyne</a>
             </li>
             <li>
-              portfolio:
+              portfolio:{" "}
               <a href="https://nameless-scrubland-68002.herokuapp.com/">
                 nameless-scrubland-68002.herokuapp.com/
               </a>
             </li>
             <li>
-              linkedin:
+              linkedin:{" "}
               <a href="https://www.linkedin.com/in/sean-lim-8126ab1a0/">
                 www.linkedin.com/in/sean-lim-8126ab1a0/
               </a>
