@@ -8,7 +8,7 @@ class About extends Component {
         <div className="col s12 m12 l8">
           <div className="card center grey darken-1 grey-text text-lighten-2">
             <br />
-            <h3>About Me</h3>
+            <h3>Hi, I'm Sean.</h3>
             <p>
               JavaScript web developer. Fast learner, team player as well as
               works independently, and comfortable in a competitive atmosphere.
