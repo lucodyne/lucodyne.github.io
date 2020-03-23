@@ -7,6 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="container row">
+        <h4 className="center grey-text text-lighten-2">projects</h4>
         {Object.keys(projects).map(key => {
           return (
             <Project
