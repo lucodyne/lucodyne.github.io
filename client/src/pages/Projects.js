@@ -15,6 +15,8 @@ class Projects extends Component {
               url={projects[key].url}
               description={projects[key].description}
               image={projects[key].image}
+              tools={projects[key].tools}
+              position={projects[key].position}
             ></Project>
           );
         })}
