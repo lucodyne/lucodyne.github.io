@@ -6,15 +6,20 @@ class About extends Component {
       <div className="row">
         <div className="col m0 l2"></div>
         <div className="col s12 m12 l8">
-          <div className="card center grey darken-1 grey-text text-lighten-2">
+          <div className="card center cyan lighten-2 grey-text text-darken-4">
             <br />
             <h3>Hi, I'm Sean.</h3>
+            <br />
             <p>
-              JavaScript web developer. Fast learner, team player as well as
-              works independently, and comfortable in a competitive atmosphere.
-              Excellent problem-solver, eager to face new challenges. Excellent
-              attention to detail, and high standards for quality of work.
+              Web developer, techwear enthusiast, general nerd. If I'm not
+              coding, I'm probably playing a game, watching anime
+              <br /> <br />
+              ...or something.
             </p>
+            <br />
+            <br />
+            ( ´・ω・`) What do I write here
+            <br />
             <br />
           </div>
         </div>
