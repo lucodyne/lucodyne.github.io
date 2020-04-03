@@ -4,6 +4,7 @@
     "description": "guess the name of k-pop groups in a hangman game",
     "url": "https://lucodyne.github.io/HangmanGame/",
     "tools": "html, css, javascript, audacity",
+    "github": "https://github.com/lucodyne/HangmanGame",
     "position": "solo"
   },
 
@@ -12,6 +13,7 @@
     "description": "play rock paper scissors with a friend",
     "url": "https://lucodyne.github.io/RPS2/",
     "tools": "firebase, html, css",
+    "github": "https://github.com/lucodyne/RPS2",
     "position": "solo"
   },
 
@@ -20,6 +22,7 @@
     "description": "find recipes, make a grocery list, and keep track of your ingredients",
     "url": "https://fast-wave-16480.herokuapp.com/",
     "tools": "react, bulma-css, mongodb, heroku",
+    "github": "https://github.com/lucodyne/Ingredient",
     "position": "user authentication, database, "
   },
 
@@ -28,6 +31,7 @@
     "description": "invest in stocks (with pretend money), see how you place on the scoreboard",
     "url": "https://secure-beach-99456.herokuapp.com/",
     "tools": "materialize, mysql, axios",
+    "github": "https://github.com/lucodyne/Project2",
     "position": "api routing, database, html/css"
   },
 
@@ -36,6 +40,7 @@
     "description": "test your league of legends trivia skills",
     "url": "https://lucodyne.github.io/triviaGame/",
     "tools": "html, css, javascript",
+    "github": "https://github.com/lucodyne/triviaGame",
     "position": "solo"
   },
 
@@ -44,6 +49,7 @@
     "description": "memory game with food pictures, try to click each image exactly once",
     "url": "https://limitless-journey-28670.herokuapp.com/",
     "tools": "react, heroku, materialize",
+    "github": "https://github.com/lucodyne/MemoryClicky",
     "position": "solo"
   }
 }

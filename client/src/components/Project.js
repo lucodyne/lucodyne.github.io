@@ -6,7 +6,7 @@ class Project extends Component {
       <>
         <div className="col s12 m6 l6">
           <div className="col s0 m1 l1"></div>
-          <div className="card grey darken-1 col s12 m10 l9 ">
+          <div className="card hoverable grey darken-1 col s12 m10 l9 ">
             <div className="card-image waves-effect waves-block waves-light">
               <img className="activator" src={this.props.image}></img>
             </div>
@@ -31,6 +31,10 @@ class Project extends Component {
             <div className="card-action">
               <a className="cyan-text text-lighten-2" href={this.props.url}>
                 link
+              </a>
+              |{"       "}
+              <a className="cyan-text text-lighten-2" href={this.props.github}>
+                github
               </a>
             </div>
           </div>

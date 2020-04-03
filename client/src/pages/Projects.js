@@ -17,6 +17,7 @@ class Projects extends Component {
               description={projects[key].description}
               image={projects[key].image}
               tools={projects[key].tools}
+              github={projects[key].github}
               // position={projects[key].position}
             ></Project>
           );
