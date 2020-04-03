@@ -6,7 +6,7 @@ class About extends Component {
       <div className="row">
         <div className="col m0 l2"></div>
         <div className="col s12 m12 l8">
-          <div className="card center cyan lighten-2 grey-text text-darken-4">
+          <div className="card center flow-text cyan lighten-2 grey-text text-darken-4">
             <br />
             <h3>Hi, I'm Sean.</h3>
             <br />
