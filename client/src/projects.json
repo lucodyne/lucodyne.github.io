@@ -15,7 +15,7 @@
     "position": "solo"
   },
 
-  "supper time": {
+  "suppertime": {
     "image": "/Portfolio Thumbnails/suppertime-thumb.png",
     "description": "find recipes, make a grocery list, and keep track of your ingredients",
     "url": "https://fast-wave-16480.herokuapp.com/",
