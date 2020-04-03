@@ -7,7 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="container row">
-        <h4 className="center grey-text text-lighten-2">projects</h4>
+        <h4 className="center cyan-text text-lighten-2">projects</h4>
         {Object.keys(projects).map(key => {
           return (
             <Project
@@ -17,7 +17,7 @@ class Projects extends Component {
               description={projects[key].description}
               image={projects[key].image}
               tools={projects[key].tools}
-              position={projects[key].position}
+              // position={projects[key].position}
             ></Project>
           );
         })}
