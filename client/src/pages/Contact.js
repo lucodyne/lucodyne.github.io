@@ -12,7 +12,7 @@ class Contact extends Component {
             <li>
               email:{" "}
               <a
-                className="cyan-text text-lighten-2"
+                className="cyan-text text-lighten-2 hoverable"
                 href="mailto:hi.im.sean.lim@gmail.com"
               >
                 hi.im.sean.lim@gmail.com
@@ -21,7 +21,7 @@ class Contact extends Component {
             <li>
               github:{" "}
               <a
-                className="cyan-text text-lighten-2"
+                className="cyan-text text-lighten-2 hoverable"
                 href="https://github.com/lucodyne"
               >
                 github.com/lucodyne
@@ -30,7 +30,7 @@ class Contact extends Component {
             <li>
               linkedin:{" "}
               <a
-                className="cyan-text text-lighten-2"
+                className="cyan-text text-lighten-2 hoverable"
                 href="https://www.linkedin.com/in/sean-lim-8126ab1a0/"
               >
                 www.linkedin.com/in/sean-lim-8126ab1a0/

@@ -6,8 +6,8 @@ class Project extends Component {
       <>
         <div className="col s12 m6 l6">
           <div className="col s0 m1 l1"></div>
-          <div className="card hoverable grey darken-1 col s12 m10 l9 ">
-            <div className="card-image waves-effect waves-block waves-light">
+          <div className="card grey darken-1 col s12 m10 l9 ">
+            <div className="card-image hoverable waves-effect waves-block waves-light">
               <img className="activator" src={this.props.image}></img>
             </div>
             <div className="card-content flow-text">
@@ -28,12 +28,18 @@ class Project extends Component {
               </p>
               {/* <p>role: {this.props.position}</p> */}
             </div>
-            <div className="card-action">
-              <a className="cyan-text text-lighten-2" href={this.props.url}>
+            <div className="card-action right">
+              <a
+                className="cyan-text text-lighten-2 hoverable"
+                href={this.props.url}
+              >
                 link
               </a>
               |{"       "}
-              <a className="cyan-text text-lighten-2" href={this.props.github}>
+              <a
+                className="cyan-text text-lighten-2 hoverable"
+                href={this.props.github}
+              >
                 github
               </a>
             </div>
