@@ -11,14 +11,16 @@ class About extends Component {
             <h3>Hi, I'm Sean.</h3>
             <br />
             <p>
-              Web developer, techwear enthusiast, general nerd. If I'm not
-              coding, I'm probably playing a game, watching anime
+              Web developer, techwear enthusiast, general nerd. I've worked with
+              React, Express, MySQL, Node, JQuery, and a bunch of other stuff
+              (feel free to ask if you're curious!). If I'm not coding, I'm
+              probably playing a game, watching anime
               <br /> <br />
               ...or something.
             </p>
             <br />
             <br />
-            ( ´・ω・`) What do I write here
+            ( ´・ω・`) What else do I write here
             <br />
             <br />
           </div>
