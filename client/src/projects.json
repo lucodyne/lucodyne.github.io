@@ -1,13 +1,4 @@
 {
-  "hangman": {
-    "image": "/Portfolio Thumbnails/hangman-thumb.png",
-    "description": "guess the name of k-pop groups in a hangman game",
-    "url": "https://lucodyne.github.io/HangmanGame/",
-    "tools": "html, css, javascript, audacity",
-    "github": "https://github.com/lucodyne/HangmanGame",
-    "position": "solo"
-  },
-
   "pkmn rps": {
     "image": "/Portfolio Thumbnails/rockpaperscissors-thumb.png",
     "description": "play rock paper scissors with a friend",
@@ -33,15 +24,6 @@
     "tools": "materialize, mysql, axios",
     "github": "https://github.com/lucodyne/Project2",
     "position": "api routing, database, html/css"
-  },
-
-  "lol trivia": {
-    "image": "/Portfolio Thumbnails/trivia-thumb.png",
-    "description": "test your league of legends trivia skills",
-    "url": "https://lucodyne.github.io/triviaGame/",
-    "tools": "html, css, javascript",
-    "github": "https://github.com/lucodyne/triviaGame",
-    "position": "solo"
   },
 
   "memory": {
