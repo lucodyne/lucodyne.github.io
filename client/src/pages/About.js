@@ -12,15 +12,12 @@ class About extends Component {
             <br />
             <p>
               Web developer, techwear enthusiast, general nerd. I've worked with
-              React, Express, MySQL, Node, JQuery, and a bunch of other stuff
-              (feel free to ask if you're curious!). If I'm not coding, I'm
-              probably playing a game, watching anime
+              React, Express, MySQL, Node, JQuery, and lots more (ask if you're
+              curious!). If I'm not coding, I'm probably playing a game,
+              watching anime
               <br /> <br />
-              ...or something.
+              ...or something. ( ´・ω・`)
             </p>
-            <br />
-            <br />
-            ( ´・ω・`) What else do I write here
             <br />
             <br />
           </div>
