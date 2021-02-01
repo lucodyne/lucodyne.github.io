@@ -8,7 +8,11 @@ class Project extends Component {
           <div className="col s0 m1 l1"></div>
           <div className="card grey darken-1 col s12 m10 l9 ">
             <div className="card-image hoverable waves-effect waves-block waves-light">
-              <img className="activator" src={this.props.image}></img>
+              <img
+                alt={this.props.name}
+                className="activator"
+                src={this.props.image}
+              ></img>
             </div>
             <div className="card-content flow-text">
               <span className="center card-title activator">
