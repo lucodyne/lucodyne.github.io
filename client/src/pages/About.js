@@ -4,19 +4,13 @@ class About extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col m0 l2"></div>
+        <div className="col m0 l2" />
         <div className="col s12 m12 l8">
-          <div className="card center flow-text cyan lighten-2 grey-text text-darken-4">
-            <br />
-            <h3>Hi, I'm Sean.</h3>
-            <br />
+          <div className="flow-text cyan-text text-lighten-2">
             <p>
-              Web developer, techwear enthusiast, general nerd. I've worked with
-              React, Express, MySQL, Node, JQuery, and lots more (ask if you're
-              curious!). If I'm not coding, I'm probably playing a game,
-              watching anime
-              <br /> <br />
-              ...or something. ( ´・ω・`)
+              Hi, I'm Sean the web developer. I'm okay with React, but I have a
+              lot to learn and have a great time doing it. Let's get in touch,
+              we'll build something, play video games, or whatever.
             </p>
             <br />
             <br />

@@ -1,26 +1,30 @@
 import React, { Component } from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-// import Sidenav from "./components/Sidenav";
+import Sidenav from "./components/Sidenav";
 
 class App extends Component {
   render() {
     return (
-      <>
-        {/* <Header />
+      <Router>
+        <Header />
+        <Sidenav />
 
-        <Sidenav /> */}
+        <Switch>
+          <Route path="/projects">
+            <Projects />
+          </Route>
 
-        <About />
-
-        <Projects />
-
+          <Route path="/">
+            <About />
+          </Route>
+        </Switch>
         <Contact />
-      </>
+      </Router>
     );
   }
 }
