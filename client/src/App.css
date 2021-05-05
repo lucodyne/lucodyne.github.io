@@ -1,0 +1,14 @@
+.color-text {
+  text-shadow: 1px 1px #000;
+}
+
+#full {
+  /* background-image: "/01zx33.jpg"; this isn't working */
+  display: flex;
+  min-height: 80vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}

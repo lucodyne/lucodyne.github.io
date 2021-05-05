@@ -1,7 +1,7 @@
 {
   "pkmn rps": {
     "image": "/Portfolio Thumbnails/rockpaperscissors-thumb.png",
-    "description": "play rock paper scissors with a friend",
+    "description": "play rock paper scissors with a friend (needs two browsers)",
     "url": "https://lucodyne.github.io/RPS2/",
     "tools": "firebase, html, css",
     "github": "https://github.com/lucodyne/RPS2",

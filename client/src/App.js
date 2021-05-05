@@ -7,22 +7,26 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Sidenav from "./components/Sidenav";
 
+import "./App.css";
+
 class App extends Component {
   render() {
     return (
       <Router>
-        <Header />
-        <Sidenav />
+        <div id="full">
+          <Header />
+          <Sidenav />
 
-        <Switch>
-          <Route path="/projects">
-            <Projects />
-          </Route>
+          <Switch>
+            <Route path="/projects">
+              <Projects />
+            </Route>
 
-          <Route path="/">
-            <About />
-          </Route>
-        </Switch>
+            <Route path="/">
+              <About />
+            </Route>
+          </Switch>
+        </div>
         <Contact />
       </Router>
     );
