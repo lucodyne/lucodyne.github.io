@@ -11,9 +11,9 @@ class Contact extends Component {
               email:{" "}
               <a
                 className="cyan-text text-lighten-2 color-text"
-                href="mailto:hi.im.sean.lim@gmail.com"
+                href="mailto:lim_s@outlook.com"
               >
-                hi.im.sean.lim@gmail.com
+                lim_s@outlook.com
               </a>
             </li>
             <li>
