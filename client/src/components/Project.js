@@ -6,8 +6,8 @@ class Project extends Component {
       <>
         <div className="col s12 m6 l6" style={{ padding: 0 }}>
           <div className="col s0 m1 l1"></div>
-          <div className="card grey darken-1 col s12 m10 l9 ">
-            <div className="card-image hoverable waves-effect waves-block waves-light">
+          <div className="card cyan lighten-2 col s12 m10 l9 ">
+            <div className="card-image hoverable waves-effect waves-block waves-light z-depth-2">
               <img
                 alt={this.props.name}
                 className="activator"
@@ -20,7 +20,7 @@ class Project extends Component {
                 <i class="material-icons right">more_vert</i>
               </span>
             </div>
-            <div className="card-reveal grey darken-1 cyan-text text-lighten-2">
+            <div className="card-reveal blue-grey lighten-3 cyan-text text-lighten-2">
               <span className="card-title center grey-text text-darken-4 flow-text">
                 {this.props.name}
                 <i class="material-icons right">close</i>
@@ -32,20 +32,19 @@ class Project extends Component {
                 {this.props.description}
               </p>
               <br></br>
-              <p className="grey-text text-darken-4">{this.props.tools}</p>
+              <p className="grey-text text-darken-4">
+                made with: {this.props.tools}
+              </p>
             </div>
             <div
               className="card-action center"
               style={{ "text-shadow": "1px 1px #000000" }}
             >
-              <a
-                className="cyan-text text-lighten-2 left"
-                href={this.props.url}
-              >
+              <a className="grey-text text-darken-4 left" href={this.props.url}>
                 link
               </a>
               <a
-                className="cyan-text text-lighten-2 right"
+                className="grey-text text-darken-4 right"
                 href={this.props.github}
               >
                 github

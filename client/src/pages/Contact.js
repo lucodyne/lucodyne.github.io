@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <footer className="row" id="footer">
         <div className="col m0 l2"></div>
-        <div className="card col s12 m12 l8 center grey darken-1">
+        <div className="card col s12 m12 l8 center blue-grey lighten-3 grey-text text-darken-4">
           <ul>
             <li>
               email:{" "}
