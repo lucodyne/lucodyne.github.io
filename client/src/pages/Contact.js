@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class Contact extends Component {
   render() {
     return (
-      <footer className="row" id="footer">
+      <div className="row">
         <div className="col m0 l2"></div>
-        <div className="card col s12 m12 l8 center blue-grey lighten-3 grey-text text-darken-4">
+        <div className="card col m12 l8 center blue-grey lighten-3 grey-text text-darken-4">
           <ul>
             <li>
               email:{" "}
@@ -36,7 +36,7 @@ class Contact extends Component {
             </li>
           </ul>
         </div>
-      </footer>
+      </div>
     );
   }
 }

@@ -7,6 +7,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 // import Sidenav from "./components/Sidenav";
 
+import Sparkles from "./components/Sparkles";
+
 import "./App.css";
 
 class App extends Component {
@@ -14,7 +16,7 @@ class App extends Component {
     return (
       // <Router>
       <>
-        <div id="full">
+        <Sparkles>
           {/* <Header /> */}
           {/* <Sidenav /> */}
 
@@ -23,11 +25,11 @@ class App extends Component {
           {/* </Route> */}
 
           {/* <Route path="/"> */}
-          <About />
-          <Projects />
-          {/* </Route> */}
-          {/* </Switch> */}
-        </div>
+        </Sparkles>
+        <About />
+        <Projects />
+        {/* </Route> */}
+        {/* </Switch> */}
         <Contact />
       </>
       // </Router>
