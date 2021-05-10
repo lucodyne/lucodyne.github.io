@@ -35,7 +35,7 @@ class Sparkles extends Component {
             },
             links: {
               color: "#4dd0e1",
-              distance: 80,
+              distance: 120,
               enable: true,
               opacity: 1,
               width: 1,
@@ -56,7 +56,7 @@ class Sparkles extends Component {
                 enable: true,
                 value_area: 800,
               },
-              value: 300,
+              value: 180,
             },
             opacity: {
               value: 1,
