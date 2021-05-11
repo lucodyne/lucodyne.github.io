@@ -1,20 +1,20 @@
 {
+  "hira+kata practice": {
+    "image": "/Portfolio Thumbnails/hira-thumb.png",
+    "description": "a simple tool for studying japanese (not including kanji - yet), pressing enter reveals the answer",
+    "url": "https://afternoon-plains-80361.herokuapp.com/",
+    "tools": "react, materialize, mongodb",
+    "github": "https://github.com/lucodyne/HiraQuiz",
+    "position": "user authentication, database, "
+  },
+
   "pkmn rps": {
     "image": "/Portfolio Thumbnails/rockpaperscissors-thumb.png",
     "description": "play rock paper scissors with a friend (needs two browsers)",
     "url": "https://lucodyne.github.io/RPS2/",
-    "tools": "firebase, html, css",
+    "tools": "firebase, html, css, js",
     "github": "https://github.com/lucodyne/RPS2",
     "position": "solo"
-  },
-
-  "suppertime": {
-    "image": "/Portfolio Thumbnails/suppertime-thumb.png",
-    "description": "find recipes, make a grocery list, and keep track of your ingredients",
-    "url": "https://fast-wave-16480.herokuapp.com/",
-    "tools": "react, bulma-css, mongodb, heroku",
-    "github": "https://github.com/lucodyne/Ingredient",
-    "position": "user authentication, database, "
   },
 
   "stock sim": {
@@ -30,7 +30,7 @@
     "image": "/Portfolio Thumbnails/clicky-thumb.png",
     "description": "memory game with food pictures, try to click each image exactly once",
     "url": "https://limitless-journey-28670.herokuapp.com/",
-    "tools": "react, heroku, materialize",
+    "tools": "react, materialize",
     "github": "https://github.com/lucodyne/MemoryClicky",
     "position": "solo"
   }
